@@ -1,0 +1,10 @@
+import React from 'react'
+
+export default function Home() {
+  return (
+    <div>
+        <h1>Maureen Fenninger</h1>
+        <h2>Actor, Musician, Home Owner, Cat Mother, Gemini, Friend, Roman, Countryman</h2>
+    </div>
+  )
+}
