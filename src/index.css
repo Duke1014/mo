@@ -66,3 +66,25 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+}
+
+nav {
+  position: relative;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}

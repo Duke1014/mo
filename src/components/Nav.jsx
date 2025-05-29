@@ -1,14 +1,20 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
   return (
     <div>
+        <div>
+          
+        </div>
         <nav>
+            <h1 className='name'>Maureen Fenninger</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/gallery">Gallery</Link>
+                </li>
             </ul>
         </nav>
     </div>
