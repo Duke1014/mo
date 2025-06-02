@@ -1,11 +1,22 @@
-import React from 'react'
+import { SocialIcon } from 'react-social-icons'
 
 export default function Footer() {
   return (
-    <div>
+    <div className='footer-container'>
         <footer>
-            <p>&copy; 2023 Maureen Fenninger</p>
-            <p>Follow me on <a href="https://www.linkedin.com/in/maureen-fenninger-123456789/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p>&copy; 2025 Maureen Fenninger</p>
+
+            <ul>
+              <li>
+                <SocialIcon url="www.youtube.com/" href="" />
+              </li>
+              <li>
+                <SocialIcon url="www.youtube.com/" href="" />
+              </li>
+              <li>
+                <SocialIcon url="www.youtube.com/" href="" />
+              </li>
+            </ul>
         </footer>
     </div>
   )
