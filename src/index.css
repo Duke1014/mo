@@ -14,21 +14,15 @@
 }
 
 a {
-  font-weight: 500;
+  font-wei535bf2;
+}ght: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
-}
+  color: #
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -66,6 +60,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
 .footer-container {
   min-height: 100vh;    
@@ -105,11 +107,12 @@ p {
 
 .front-page-photo {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  min-height: 100vh;
   background-image: url('../assets/Mo Dance.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .front-page-photo h3 {
